@@ -5,7 +5,7 @@ chcp 65001 >nul
 cls
 echo ===============================================================
 echo.
-echo        AD ENUMERATION SCRIPT BY ABC
+echo        AD ENUMERATION SCRIPT BY KhukuriRimal
 echo        MODE: NATIVE CMD ONLY (NO POWERSHELL)
 echo.
 echo ===============================================================
@@ -185,3 +185,4 @@ echo [*] Completed. Outputs saved in: %OUTDIR%
 echo [*] Open %MAP% to see what each file contains.
 pause
 endlocal
+
