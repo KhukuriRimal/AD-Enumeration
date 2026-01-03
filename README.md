@@ -3,6 +3,7 @@ This repository contains a collection of Active Directory enumeration scripts de
 The scripts focus on living-off-the-land techniques, using only native Windows capabilities, with graceful fallbacks when PowerShell or advanced modules are restricted.
 
 **Why This Repository Exists:**
+
 Modern enterprise environments commonly enforce:
 1. EDR / XDR solutions (Defender, CrowdStrike, Sentinel, etc.)
 2. AMSI, Script Block Logging, and constrained PowerShell
@@ -18,6 +19,7 @@ In such scenarios:
 These scripts are built for those exact conditions. These scripts are provided for educational and authorized security testing purposes only.
 
 **Script Usage:**
+
 **1. CMD**
 ADEnum-CMD.bat
 
