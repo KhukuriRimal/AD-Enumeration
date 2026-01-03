@@ -12,7 +12,7 @@ function Write-Banner($mode) {
     Clear-Host
     Write-Host "===============================================================" -ForegroundColor Cyan
     Write-Host ""
-    Write-Host "        AD ENUMERATION SCRIPT BY ABC" -ForegroundColor Yellow
+    Write-Host "        AD ENUMERATION SCRIPT BY KhukuriRimal" -ForegroundColor Yellow
     Write-Host "        MODE: $mode" -ForegroundColor Yellow
     Write-Host ""
     Write-Host "===============================================================" -ForegroundColor Cyan
@@ -277,3 +277,4 @@ Save-MapLine $Map "39_registry_password_hkcu.txt" "Registry keyword search HKCU 
 Write-Host ""
 Write-Host "[*] Completed. Outputs saved in: $OutDir"
 Write-Host "[*] Open 00_README_FILES.txt for the file map."
+
