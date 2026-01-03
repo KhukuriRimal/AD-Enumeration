@@ -21,11 +21,14 @@ These scripts are built for those exact conditions. These scripts are provided f
 **Script Usage:**
 
 **1. CMD**
+
 ADEnum-CMD.bat
 
 **2. Powershell - ADSI**
+
 powershell -ExecutionPolicy Bypass -File .\ADEnum-ADSI.ps1
 
 **3. Powershell - AD Module**
+
 powershell -ExecutionPolicy Bypass -File .\AD_ENUM_ADMODULE.ps1
 
