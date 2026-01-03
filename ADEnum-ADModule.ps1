@@ -12,7 +12,7 @@ function Write-Banner($mode) {
     Clear-Host
     Write-Host "===============================================================" -ForegroundColor Green
     Write-Host ""
-    Write-Host "        AD ENUMERATION SCRIPT BY ABC" -ForegroundColor Yellow
+    Write-Host "        AD ENUMERATION SCRIPT BY KhukuriRimal" -ForegroundColor Yellow
     Write-Host "        MODE: $mode" -ForegroundColor Yellow
     Write-Host ""
     Write-Host "===============================================================" -ForegroundColor Green
@@ -277,3 +277,4 @@ Save-MapLine $Map "43_hardcoded_creds_filesearch.txt" "Keyword search for secret
 Write-Host ""
 Write-Host "[*] Completed. Outputs saved in: $OutDir"
 Write-Host "[*] Open 00_README_FILES.txt for the file map."
+
